@@ -10,7 +10,7 @@
 
 <body class="bg-pink-50 font-sans">
 
-    <!-- Header -->
+   
     <header class="bg-white bg-opacity-80 shadow-sm py-3 px-6 flex justify-between items-center sticky top-0 z-50 backdrop-blur-md">
         <div class="w-full flex justify-between items-center">
             <div>
@@ -31,102 +31,31 @@
 
     <!-- Page Title -->
     <section class="text-center py-8">
-        <h2 class="text-3xl font-bold text-pink-700">Semester & Subject-wise Notes</h2>
+        <h2 class="text-3xl font-bold text-pink-800">Semester & Subject-wise Notes</h2>
         <p class="text-pink-600 mt-2">Find your study materials subject-wise</p>
     </section>
 
     <!-- Notes Grid -->
     <div class="w-full px-4">
-        
+        <!-- Semester 3 -->
         <div class="mb-8">
-            <h3 class="text-2xl font-bold text-pink-700 mb-4 text-center">Open Electives</h3>
-<!-- Subject 1 -->
-<div class="w-full mx-auto mb-4">
-    <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition cursor-pointer text-center"
-        onclick="toggleNotes('ES-notes')">
-        <h4 class="text-lg font-bold text-pink-700">Environmental Science</h4>
-    </div>
+            <h3 class="text-2xl font-bold text-pink-700 mb-4 text-center">2nd Semester</h3>
 
-    <!-- Hidden PDF List -->
-    <div id="ES-notes" class="hidden mt-3 space-y-2">
-        <a href="https://drive.google.com/file/d/1sBS5nTt5OBKn_eTq3IWBCOkFcOwTJPcy/view?usp=drive_link" target="_blank"
-            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
-            <div class="flex items-center gap-3">
-                <span class="text-white text-xl">📄</span>
-                <span class="text-white font-medium">Environmental Sciences (Thakur Publication)</span>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
-                viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
-                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
-                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-            </svg>
-        </a>
-
-        <a href="https://drive.google.com/file/d/1irHxgb2-Rif3Oj8d_hvWBblzUSPvG1l8/view?usp=drive_link" target="_blank"
-            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
-            <div class="flex items-center gap-3">
-                <span class="text-white text-xl">📄</span>
-                <span class="text-white font-medium">sweet and short of ES</span>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
-                viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
-                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
-                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-            </svg>
-        </a>
-    </div>
-</div>
-<!-- Subject 2 -->
-<div class="w-full mx-auto mb-4">
-    <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition cursor-pointer text-center"
-        onclick="toggleNotes('Gs-notes')">
-        <h4 class="text-lg font-bold text-pink-700">General studies</h4>
-    </div>
-
-    <!-- Hidden PDF List -->
-    <div id="Gs-notes" class="hidden mt-3 space-y-2">
-        <a href="https://drive.google.com/file/d/1sVRtTArgUanARhGeeQZaJse9UPdNw3H5/view?usp=drive_link" target="_blank"
-            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
-            <div class="flex items-center gap-3">
-                <span class="text-white text-xl">📄</span>
-                <span class="text-white font-medium">Short and sweet of GS</span>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
-                viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
-                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
-                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-            </svg>
-        </a>
-
-    </div>
-</div>
           
-<!-- Subject 3 -->
+<!-- Mathematics -->
 <div class="w-full mx-auto mb-4">
     <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition cursor-pointer text-center"
-        onclick="toggleNotes('PG-notes')">
-        <h4 class="text-lg font-bold text-pink-700">Power Generation</h4>
+        onclick="toggleNotes('DMS-notes')">
+        <h4 class="text-lg font-bold text-pink-700">Mathematics</h4>
     </div>
 
-    <!-- Hidden PDF List -->
-    <div id="PG-notes" class="hidden mt-3 space-y-2">
-        <a href="https://drive.google.com/file/d/1Uo5Xi_X9poViqpp50HyTB83Qm7EY5h5Z/view?usp=drive_link" target="_blank"
+    <!-- Hidden PDf list -->
+    <div id="DMS-notes" class="hidden mt-3 space-y-2">
+        <a href="https://drive.google.com/file/d/1vXgFyEmTvgGz3jpb2uCNscMdkN1oluVF/view?usp=drive_link" target="_blank"
             class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
             <div class="flex items-center gap-3">
                 <span class="text-white text-xl">📄</span>
-                <span class="text-white font-medium">Short and Sweet PG Notes</span>
+                <span class="text-white font-medium">Syallabus</span>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor">
@@ -138,11 +67,11 @@
                     7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
             </svg>
         </a>
-         <a href="https://drive.google.com/file/d/1oBa0dXIxhd4v7sUQDD8TMt14CA17UHNd/view?usp=drive_link" target="_blank"
+        <a href="https://drive.google.com/file/d/1ObjqC_x59M67cYPVvdyarnw-WoiGDmss/view?usp=drive_link" target="_blank"
             class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
             <div class="flex items-center gap-3">
                 <span class="text-white text-xl">📄</span>
-                <span class="text-white font-medium">Syallabus of PG</span>
+                <span class="text-white font-medium">Exam 2 Sem 2022</span>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor">
@@ -154,11 +83,11 @@
                     7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
             </svg>
         </a>
-         <a href="https://drive.google.com/file/d/1aL32eqpO5nIU8IBCnJg2SBPkxehowB6J/view?usp=drive_link" target="_blank"
+        <a href="https://drive.google.com/file/d/1mT_sCtLLwRHIK6XttcUltjEtM5q_gsDu/view?usp=drive_link" target="_blank"
             class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
             <div class="flex items-center gap-3">
                 <span class="text-white text-xl">📄</span>
-                <span class="text-white font-medium">PG PDF notes</span>
+                <span class="text-white font-medium">Assignment 2</span>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor">
@@ -170,11 +99,11 @@
                     7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
             </svg>
         </a>
-         <a href="https://drive.google.com/file/d/1cvJeFwH1WecXksgAiONF5mJ4iRq7XMYd/view?usp=drive_link" target="_blank"
+        <a href="https://drive.google.com/file/d/1w9iFaKEf5etsuEy8pS_b8FtHSU0h3RuG/view?usp=drive_link" target="_blank"
             class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
             <div class="flex items-center gap-3">
                 <span class="text-white text-xl">📄</span>
-                <span class="text-white font-medium">Energy Scene pdf</span>
+                <span class="text-white font-medium">Assignment 1</span>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor">
@@ -189,33 +118,20 @@
     </div>
 </div>
 
-<!-- Subject 2 -->
+<!-- Chemistry -->
 <div class="w-full mx-auto mb-4">
     <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition cursor-pointer text-center"
-        onclick="toggleNotes('GB-notes')">
-        <h4 class="text-lg font-bold text-pink-700">Green Building</h4>
+        onclick="toggleNotes('DSA-notes')">
+        <h4 class="text-lg font-bold text-pink-700">Chemistry</h4>
     </div>
 
     <!-- Hidden PDF List -->
-    <div id="GB-notes" class="hidden mt-3 space-y-2">
-    </div>
-</div>
-<!-- subject 4---------------------------------------------- -->
- 
-
-<div class="w-full mx-auto mb-4">
-    <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition cursor-pointer text-center"
-        onclick="toggleNotes('E&D-notes')">
-        <h4 class="text-lg font-bold text-pink-700">Energy audit and demand side Management</h4>
-    </div>
-
-    <!-- Hidden PDF List -->
-    <div id="E&D-notes" class="hidden mt-3 space-y-2">
-        <a href="https://drive.google.com/file/d/1osVgz82buNPx2JLtJfaAgbFcF0myZjEC/view?usp=drive_link" target="_blank"
+    <div id="DSA-notes" class="hidden mt-3 space-y-2">
+        <a href="https://drive.google.com/file/d/1gNKc5AXCJWF0caTCcfxHK0MFeFhe13fH/view?usp=drive_link" target="_blank"
             class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
             <div class="flex items-center gap-3">
                 <span class="text-white text-xl">📄</span>
-                <span class="text-white font-medium">Short and Sweet E&D Notes</span>
+                <span class="text-white font-medium">Water Softening-1 Lime-Soda Process</span>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor">
@@ -228,11 +144,11 @@
             </svg>
         </a>
 
-        <a href="https://drive.google.com/file/d/1paRbYwS1-UwIJNW4N34noq4xcxUOIngu/view?usp=drive_link" target="_blank"
+        <a href="https://drive.google.com/file/d/1jPKL6M55ieZtrrq9ypdMwBy_T6Cye5IO/view?usp=drive_link" target="_blank"
             class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
             <div class="flex items-center gap-3">
                 <span class="text-white text-xl">📄</span>
-                <span class="text-white font-medium">sweet notes of E&D for midterm 1</span>
+                <span class="text-white font-medium">Water Softening-2 Zeolite Process</span>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor">
@@ -244,11 +160,11 @@
                     7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
             </svg>
         </a>
-        <a href="https://drive.google.com/file/d/1PItTaBiZJ_ztmNjjFkfkyHTPrY65MDPj/view?usp=drive_link" target="_blank"
-            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+         <a href="https://drive.google.com/file/d/1Gh0jHbz057XrYf28vLcaD4VdvfomB1QY/view?usp=drive_link" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
             <div class="flex items-center gap-3">
                 <span class="text-white text-xl">📄</span>
-                <span class="text-white font-medium">sweet notes of E&D for midterm 2</span>
+                <span class="text-white font-medium">Water Softening-3 Demineraliation</span>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor">
@@ -260,11 +176,12 @@
                     7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
             </svg>
         </a>
-        <a href="https://drive.google.com/file/d/17ffEYOl2CAmtex_oUydghjKo2TroZ8MJ/view?usp=drive_link" target="_blank"
+
+        <a href="https://drive.google.com/file/d/1HfTkIzKRpg_sOxt71cscaa7lf5kDoIz-/view?usp=drive_link" target="_blank"
             class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
             <div class="flex items-center gap-3">
                 <span class="text-white text-xl">📄</span>
-                <span class="text-white font-medium">E&D PDF </span>
+                <span class="text-white font-medium">Question</span>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor">
@@ -276,11 +193,11 @@
                     7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
             </svg>
         </a>
-        <a href="https://drive.google.com/file/d/1rbdnfjIWZD857w0vuxzCT2D7pHutHUcV/view?usp=drive_link" target="_blank"
-            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+         <a href="https://drive.google.com/file/d/1RHNSSaNFxuFMb2Ze3w9bmymcg7BVhhuD/view?usp=drive_link" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
             <div class="flex items-center gap-3">
                 <span class="text-white text-xl">📄</span>
-                <span class="text-white font-medium">Energy aspect notes</span>
+                <span class="text-white font-medium">Portland Cement-3 Property of Setting - Hardening</span>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor">
@@ -292,11 +209,12 @@
                     7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
             </svg>
         </a>
-         <a href="https://drive.google.com/file/d/1I-bmFD1V8NMPyNRYKgQfFWtUB2KB0hli/view?usp=drive_link" target="_blank"
+
+        <a href="https://drive.google.com/file/d/1uy7YT5MCfkLPoXSn4O4GjqY2N3BCogRG/view?usp=drive_link" target="_blank"
             class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
             <div class="flex items-center gap-3">
                 <span class="text-white text-xl">📄</span>
-                <span class="text-white font-medium">energy-scenario--2</span>
+                <span class="text-white font-medium">Portland Cement-2 Manufacture by Rotatory Kiln Technology</span>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor">
@@ -308,11 +226,11 @@
                     7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
             </svg>
         </a>
-         <a href="https://drive.google.com/file/d/1spcgymKO-rexK6fE8C_nltpdZgh9-fRN/view?usp=drive_link" target="_blank"
-            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+         <a href="https://drive.google.com/file/d/12Ssq_ATECm3exlys4vowqHnriggJ7-bj/view?usp=drive_link" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
             <div class="flex items-center gap-3">
                 <span class="text-white text-xl">📄</span>
-                <span class="text-white font-medium">energy-scenario-2 in india</span>
+                <span class="text-white font-medium">Portland Cement-1 Defination Properties - Applications</span>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor">
@@ -324,11 +242,108 @@
                     7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
             </svg>
         </a>
-         <a href="https://drive.google.com/file/d/1P-FACAZbAyFD3yUKbojkvV40VIb4Fz_3/view?usp=drive_link" target="_blank"
+
+        <a href="https://drive.google.com/file/d/1_ie-QVWqeaOzyyH75iyLQyvBOlfSFWUS/view?usp=drive_link" target="_blank"
             class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
             <div class="flex items-center gap-3">
                 <span class="text-white text-xl">📄</span>
-                <span class="text-white font-medium">World energy status</span>
+                <span class="text-white font-medium">Numerical Based on Lime-Soda Softening Process</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+        <a href="https://drive.google.com/file/d/1X3jhhbr7pfZeh0b8-0QfYgmqLNgV1ze-/view?usp=drive_link" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">Hardness of water</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+        <a href="https://drive.google.com/file/d/18CWZ2hwILoaJVum9FwA_IEjDgWXw98dg/view?usp=drive_link" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">Engineering Chemistry Latest Lab manual with K Level</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+        <a href="https://drive.google.com/file/d/18CWZ2hwILoaJVum9FwA_IEjDgWXw98dg/view?usp=drive_link" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">Engineering Chemistry Latest Lab manual with K Level</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+        <a href="https://drive.google.com/file/d/14zLPYUvzODN7omPxIfq5RZciOhCbRabX/view?usp=drive_link" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">Corrosion 2 ( Galvanic Concentration Pitting Stress Corosion)</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+        <a href="https://drive.google.com/file/d/1CJNrQosLxSdLN9U77ZKXyZjnCmryqf6Y/view?usp=drive_link" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">Corrosion (Definition- Types of Corrosion- Dry - Wet Corrosion)</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+        <a href="https://drive.google.com/file/d/1j_FfCsa6SBs8QrnO5G-f8sMEepeHujRg/view?usp=drive_link" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">Boiler-trovel</span>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor">
@@ -342,21 +357,35 @@
         </a>
     </div>
 </div>
-<!-- Subject 2 -->
+
+<!-- OOPs ---------------------------------------------- -->
 <div class="w-full mx-auto mb-4">
     <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition cursor-pointer text-center"
-        onclick="toggleNotes('TC-notes')">
-        <h4 class="text-lg font-bold text-pink-700">Telecommunication</h4>
+        onclick="toggleNotes('OOPs-notes')">
+        <h4 class="text-lg font-bold text-pink-700">Basic Civil Engineering</h4>
     </div>
 
     <!-- Hidden PDF List -->
-    <div id="TC-notes" class="hidden mt-3 space-y-2">
+    <div id="OOPs-notes" class="hidden mt-3 space-y-2">
+       
     </div>
 </div>
 
+<!-- M&M -->
+<div class="w-full mx-auto mb-4">
+    <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition cursor-pointer text-center"
+        onclick="toggleNotes('M&M-notes')">
+        <h4 class="text-lg font-bold text-pink-700">CAEG</h4>
+    </div>
+
+    <!-- Hidden PDF List -->
+    <div id="M&M-notes" class="hidden mt-3 space-y-2">
+       
+    </div>
+</div>
 
     <!-- Footer -->
-    <footer class="bg-pink-400 mt-12 py-4 text-center text-sm text-white">
+    <footer class="bg-pink-400  mt-12 py-4 text-center text-sm text-white">
         &copy; 2025 Sweet Notes. All rights reserved.
     </footer>
 

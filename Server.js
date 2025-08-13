@@ -10,6 +10,12 @@ app.use(express.static(path.join(__dirname, "public")));
 app.get("/",function(req,res){
     res.render('Server');
 });
+app.get("/1sem",function(req,res){
+    res.render('1sem');
+});
+app.get("/2sem",function(req,res){
+    res.render('2sem');
+});
 app.get('/3sem',function(req,res){
     res.render("3sem");
 });
