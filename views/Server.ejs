@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sweet Notes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/javascripts/home.js"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="GSN_body bg-gradient-to-b from-pink-50 via-purple-50 to-pink-100">
+  <!-- Navbar -->
+  <nav
+    class="GSN_Nav bg-white bg-opacity-80 shadow-sm py-3 px-6 flex justify-between items-center sticky top-0 z-50 backdrop-blur-md">
+    <div>
+      <img src="/images/Nlogo.png" alt="Sweet Notes Logo" width="150">
+    </div>
+    <ul class="flex space-x-5 sm:space-x-8 text-pink-700 font-semibold text-sm sm:text-base">
+      <li><a href="#" class="hover:text-pink-800 transition">Home</a></li>
+      <li><a href="#notes" class="hover:text-pink-800 transition">Notes</a></li>
+      <li><a href="#about" class="hover:text-pink-800 transition">About</a></li>
+    </ul>
+  </nav>
+
+
+  <header class="GSN_header bg-white bg-opacity-60 shadow-sm py-8 px-4 text-center">
+    <h1 class="text-2xl sm:text-3xl md:text-4xl font-semibold text-pink-800 leading-snug mb-3">
+      <i>Hey ! Rtuian's ✨</i>
+    </h1>
+    <p class="text-pink-600 text-sm sm:text-base md:text-lg font-medium max-w-3xl mx-auto">
+      <i>💖Padho pyaar se, samjho araam se, Exam ki tension ko rakh do kaam se. <br />
+
+        Har semester ki yeh notes ki mithaas, BTech life ho jaye ekdum khaas! 🎀</i>
+    </p>
+  </header>
+
+  <!-- Notes Section -->
+  <section id="notes" class="GSN_Notes_section max-w-6xl mx-auto mt-12 px-6">
+    <h2 class="text-2xl sm:text-3xl text-center text-pink-800 font-bold mb-8">📚 Semester Notes
+      <P class="text-sm sm:text-sm text-center text-pink-700  mb-9"> Ek Raat Ka Sahara, Har Exam Mein Kinara!</P>
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Cards -->
+      <div
+        class="GSN_Cards bg-white bg-opacity-90 rounded-xl shadow hover:shadow-lg border border-pink-100 p-5 text-center transition-all">
+        <h3 class="text-lg font-bold text-pink-700">3rd Semester 💡</h3>
+        <p class="text-pink-600 mt-1 text-sm">Start strong! Core computer subjects & logic building</p>
+        <button onclick="window.location.href='/3sem'"
+          class="mt-4 bg-pink-400 hover:bg-pink-500 text-white px-4 py-2 text-sm rounded-full">
+          View Notes
+        </button>
+      </div>
+      <div
+        class="bg-white bg-opacity-90 rounded-xl shadow hover:shadow-lg border border-pink-100 p-5 text-center transition-all">
+        <h3 class="text-lg font-bold text-pink-700">4th Semester 🧠</h3>
+        <p class="text-pink-600 mt-1 text-sm">Things get serious and Training Time.</p>
+        <button onclick="window.location.href='/4sem'"
+          class="mt-4 bg-pink-400 hover:bg-pink-500 text-white px-4 py-2 text-sm rounded-full">
+          View Notes
+        </button>
+      </div>
+      <div
+        class="bg-white bg-opacity-90 rounded-xl shadow hover:shadow-lg border border-pink-100 p-5 text-center transition-all">
+        <h3 class="text-lg font-bold text-pink-700">5th Semester 🎯</h3>
+        <p class="text-pink-600 mt-1 text-sm">More code, more fun, more growth!</p>
+        <button onclick="window.location.href='/5sem'"
+          class="mt-4 bg-pink-400 hover:bg-pink-500 text-white px-4 py-2 text-sm rounded-full">
+          View Notes
+        </button>
+      </div>
+      <div
+        class="bg-white bg-opacity-90 rounded-xl shadow hover:shadow-lg border border-pink-100 p-5 text-center transition-all">
+        <h3 class="text-lg font-bold text-pink-700">6th Semester 🚀</h3>
+        <p class="text-pink-600 mt-1 text-sm">Logical subjects and Training Time</p>
+        <button onclick="window.location.href='/6sem'"
+          class="mt-4 bg-pink-400 hover:bg-pink-500 text-white px-4 py-2 text-sm rounded-full">
+          View Notes
+        </button>
+      </div>
+      <div
+        class="bg-white bg-opacity-90 rounded-xl shadow hover:shadow-lg border border-pink-100 p-5 text-center transition-all">
+        <h3 class="text-lg font-bold text-pink-700">7th Semester 🧩</h3>
+        <p class="text-pink-600 mt-1 text-sm">Minor Projects Time ! groups collaboration</p>
+        <button onclick="window.location.href='/7sem'"
+          class="mt-4 bg-pink-400 hover:bg-pink-500 text-white px-4 py-2 text-sm rounded-full">
+          View Notes
+        </button>
+      </div>
+      <div
+        class="bg-white bg-opacity-90 rounded-xl shadow hover:shadow-lg border border-pink-100 p-5 text-center transition-all">
+        <h3 class="text-lg font-bold text-pink-700">8th Semester 🎓</h3>
+        <p class="text-pink-600 mt-1 text-sm">Final moments ! Major Project or Taining</p>
+        <button onclick="window.location.href='/8sem'"
+          class="mt-4 bg-pink-400 hover:bg-pink-500 text-white px-4 py-2 text-sm rounded-full">
+          View Notes
+        </button>
+      </div>
+      <div
+        class="bg-white bg-opacity-90 rounded-xl shadow hover:shadow-lg border border-pink-100 p-5 text-center transition-all">
+        <h3 class="text-lg font-bold text-pink-700">Open Electives🧩</h3>
+        <p class="text-pink-600 mt-1 text-sm">Mixed up subjects from other branches</p>
+        <button onclick="window.location.href='/open'"
+          class="mt-4 bg-pink-400 hover:bg-pink-500 text-white px-4 py-2 text-sm rounded-full">
+          View Notes
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about"
+    class="GSN_About max-w-3xl mx-auto mt-16 bg-white bg-opacity-90 rounded-2xl shadow-md p-6 border border-pink-100">
+    <h2 class="text-2xl sm:text-3xl font-bold text-pink-800 mb-2">About 🌟</h2>
+    <p class="text-justify text-pink-700 text-sm sm:text-base leading-relaxed mb-4">
+      Hey ! I'm <strong>Gopesh</strong> — a passionate <strong>Full Stack Developer</strong> and proud graduate of
+      <strong>Rajasthan Technical University, Kota</strong>. During my B.Tech journey, I realized how challenging it can
+      be for students to find well-organized, quality study material. That’s why I designed this platform — a one-stop
+      solution for RTU students to access semester-wise and subject-wise notes with ease.
+    </p>
+    <div class="text-center mt-6">
+      <a href="https://gopesh-portfolio-website.onrender.com/" target="_blank">
+        <button class="bg-pink-400 hover:bg-pink-500 text-white px-5 py-2 rounded-full shadow">
+          Know More
+        </button>
+      </a>
+    </div>
+  </section>
+  <section class="bg-pink-50 py-10">
+    <h2 class="text-2xl sm:text-3xl font-bold text-center text-pink-800 ">
+      🌸 Golden Memories @2021 Batch🌸
+    </h2>
+
+
+    <div class="relative max-w-3xl mx-auto mt-10 overflow-hidden rounded-xl">
+      <div id="slider" class="flex transition-transform duration-700 ease-in-out">
+        <img src="/images/image6.jpeg" class="w-full h-72 object-cover flex-shrink-0 rounded-xl" alt="Memory 1">
+        <img src="/images/all.jpeg" class="w-full h-72 object-cover flex-shrink-0 rounded-xl" alt="Memory 2">
+        <img src="/images/last.jpeg" class="w-full h-72 object-cover flex-shrink-0 rounded-xl" alt="Memory 3">
+        <img src="/images/gorimam.jpeg" class="w-full h-72 object-cover flex-shrink-0 rounded-xl" alt="Memory 4">
+        <img src="/images/image7.jpeg" class="w-full h-72 object-cover flex-shrink-0 rounded-xl" alt="Memory 5">
+        <img src="/images/himani.jpeg" class="w-full h-72 object-cover flex-shrink-0 rounded-xl" alt="Memory 6">
+        <img src="/images/image5.jpeg" class="w-full h-72 object-cover flex-shrink-0 rounded-xl" alt="Memory 7">
+        <img src="/images/image4.jpeg" class="w-full h-72 object-cover flex-shrink-0 rounded-xl" alt="Memory 8">
+        <img src="/images/image3.jpeg" class="w-full h-72 object-cover flex-shrink-0 rounded-xl" alt="Memory 9">
+        <img src="/images/image2.jpeg" class="w-full h-72 object-cover flex-shrink-0 rounded-xl" alt="Memory 10">
+      </div>
+
+
+      <div id="dots" class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2"></div>
+    </div>
+  </section>
+
+
+
+  <script>
+    const slider = document.getElementById("slider");
+    const slides = slider.children;
+    const totalSlides = slides.length;
+    let index = 0;
+
+    const dotsContainer = document.getElementById("dots");
+    for (let i = 0; i < totalSlides; i++) {
+      const dot = document.createElement("span");
+      dot.classList = `w-3 h-3 rounded-full ${i === 0 ? "bg-pink-600" : "bg-pink-300"} cursor-pointer`;
+      dot.addEventListener("click", () => moveToSlide(i));
+      dotsContainer.appendChild(dot);
+    }
+
+    const updateDots = () => {
+      [...dotsContainer.children].forEach((dot, i) => {
+        dot.className = `w-3 h-3 rounded-full transition ${i === index ? "bg-pink-600" : "bg-pink-300"}`;
+      });
+    };
+
+    const moveToSlide = (slideIndex) => {
+      index = slideIndex;
+      slider.style.transform = `translateX(-${100 * index}%)`;
+      updateDots();
+    };
+
+    setInterval(() => {
+      index = (index + 1) % totalSlides;
+      moveToSlide(index);
+    }, 4000);
+  </script>
+
+  <!-- Comments Section -->
+  <div class="mt-16 mb-20 text-center px-4">
+    <h2 class="text-2xl sm:text-3xl font-bold text-purple-700 mb-4">
+      💬 Share Your Love & Feedback
+    </h2>
+
+    <a href="https://social-cute-web-app.onrender.com/" target="_blank" rel="noopener noreferrer">
+      <button class="bg-gradient-to-r from-rose-400 via-pink-500 to-fuchsia-500 
+                   hover:from-pink-600 hover:to-fuchsia-600 
+                   text-white font-semibold text-lg sm:text-xl 
+                   px-8 py-3 rounded-full shadow-lg 
+                   hover:scale-105 transition-all duration-300 ease-in-out 
+                   backdrop-blur-sm">
+        💌 Leave a Sweet Comment
+      </button>
+    </a>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="bg-pink-400  mt-12 py-4 text-center text-sm text-white">
+    Made with 💗 by Gopesh | For my lovely Rtuians ✨
+  </footer>
+</body> 
+
+</html>

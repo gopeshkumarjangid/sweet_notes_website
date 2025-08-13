@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Notes - Semester Notes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-pink-50 font-sans">
+
+   
+    <header class="bg-white bg-opacity-80 shadow-sm py-3 px-6 flex justify-between items-center sticky top-0 z-50 backdrop-blur-md">
+        <div class="w-full flex justify-between items-center">
+            <div>
+                <img src="/images/Nlogo.png" alt="Sweet Notes Logo" width="150">
+            </div>
+            <nav>
+                <a href="/" class="group relative inline-flex items-center px-4 py-2 text-sm overflow-hidden rounded-full bg-pink-500 text-white font-semibold transition-all duration-300 ease-out hover:bg-pink-700">
+                    <svg class="mr-2 h-4 w-4 transition-transform duration-300 group-hover:-translate-x-1" fill="none"
+                        stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                    </svg>
+                    Home
+                    <span class="absolute inset-0 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-in-out bg-pink-500 opacity-20"></span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="text-center py-8">
+        <h2 class="text-3xl font-bold text-pink-800">Semester & Subject-wise Notes</h2>
+        <p class="text-pink-600 mt-2">Find your study materials subject-wise</p>
+    </section>
+
+    <!-- Notes Grid -->
+    <div class="w-full px-4">
+        <!-- Semester 3 -->
+        <div class="mb-8">
+            <h3 class="text-2xl font-bold text-pink-700 mb-4 text-center">3rd Semester</h3>
+
+          
+<!-- DMS -->
+<div class="w-full mx-auto mb-4">
+    <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition cursor-pointer text-center"
+        onclick="toggleNotes('DMS-notes')">
+        <h4 class="text-lg font-bold text-pink-700">Discrete Mathematics Structure</h4>
+    </div>
+
+    <!-- Hidden PDf list -->
+    <div id="DMS-notes" class="hidden mt-3 space-y-2">
+        <a href="/documents/short and sweet dms notes.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">Short and Sweet DMS Notes</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+    </div>
+</div>
+
+<!-- DSA -->
+<div class="w-full mx-auto mb-4">
+    <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition cursor-pointer text-center"
+        onclick="toggleNotes('DSA-notes')">
+        <h4 class="text-lg font-bold text-pink-700">Data Structure and Algorithm</h4>
+    </div>
+
+    <!-- Hidden PDF List -->
+    <div id="DSA-notes" class="hidden mt-3 space-y-2">
+        <a href="/documents/DSA Notes.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">Short and Sweet DSA Notes</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+
+        <a href="/documents/DSA class note for midterm 2.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">DSA midterm notes</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+    </div>
+</div>
+
+<!-- OOPs ---------------------------------------------- -->
+<div class="w-full mx-auto mb-4">
+    <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition cursor-pointer text-center"
+        onclick="toggleNotes('OOPs-notes')">
+        <h4 class="text-lg font-bold text-pink-700">Object Oriented Programming</h4>
+    </div>
+
+    <!-- Hidden PDF List -->
+    <div id="OOPs-notes" class="hidden mt-3 space-y-2">
+        <a href="/documents/OOPs.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">OOPs Pdf Notes</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+    </div>
+</div>
+
+<!-- M&M -->
+<div class="w-full mx-auto mb-4">
+    <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition cursor-pointer text-center"
+        onclick="toggleNotes('M&M-notes')">
+        <h4 class="text-lg font-bold text-pink-700">MicroProcessor & Microcontroller</h4>
+    </div>
+
+    <!-- Hidden PDF List -->
+    <div id="M&M-notes" class="hidden mt-3 space-y-2">
+        <a href="/documents/Ch1.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">1.Introduction to microprocessors</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+
+        <a href="/documents/ch2.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">2.Microprocessor Architecture and pin diagram</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+         <a href="/documents/ch3.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">3.Microcontroller functionalities</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+         <a href="/documents/ch4.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">4.Timing Diagram</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+         <a href="/documents/ch5.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">5.microcontroller example</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+    </div>
+</div>
+<!-- SE -->
+<div class="w-full mx-auto mb-4">
+    <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition cursor-pointer text-center"
+        onclick="toggleNotes('SE-notes')">
+        <h4 class="text-lg font-bold text-pink-700">Software Engineering</h4>
+    </div>
+
+    <!-- Hidden PDF List -->
+    <div id="SE-notes" class="hidden mt-3 space-y-2">
+        <a href="/documents/SE extra notes.......pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">Short and Sweet SE Notes</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+
+        <a href="/documents/SE quick revision notes.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">SE midterm notes</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+    </div>
+</div>
+<!-- Computer Network-->
+<div class="w-full mx-auto mb-4">
+    <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition cursor-pointer text-center"
+        onclick="toggleNotes('CN-notes')">
+        <h4 class="text-lg font-bold text-pink-700">Computer Network</h4>
+    </div>
+
+    <!-- Hidden PDF List -->
+    <div id="CN-notes" class="hidden mt-3 space-y-2">
+        <a href="/documents/Andrew S. Tanenbaum - Computer Networks.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-600 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">Andrew S. Tanenbaum - Computer Networks book</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+
+        <a href="/documents/Chapter1-v8.pptx.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">Chapter1-v8</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+        <a href="/documents/N5-datalink1-ptp (1).pptx.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">2.N5-datalink1-ptp</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+        <a href="/documents/Chapter7-ApplicationLayer.pptx.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">Application Layer pdf</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+        <a href="/documents/Chapter5-NetworkLayer.pptx.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">Network Layer pdf</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+        <a href="/documents/Chapter6-TransportLayer.pptx.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">Transport Layer pdf</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+        <a href="/documents/Chapter1-v8.pptx.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">Chapter1-v8</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+        <a href="/documents/N5-datalink1-ptp (1).pptx.pdf" target="_blank"
+            class="flex items-center justify-between gap-3 p-3 rounded-lg shadow-sm hover:shadow-md bg-pink-500 bg-opacity-60 transition">
+            <div class="flex items-center gap-3">
+                <span class="text-white text-xl">📄</span>
+                <span class="text-white font-medium">N5-datalink1-ptp (1).pptx</span>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 
+                    0 8.268 2.943 9.542 7-1.274 4.057-5.065 
+                    7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+            </svg>
+        </a>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="bg-pink-400  mt-12 py-4 text-center text-sm text-white">
+        &copy; 2025 Sweet Notes. All rights reserved.
+    </footer>
+
+    <script>
+        function toggleNotes(id) {
+            const section = document.getElementById(id);
+            section.classList.toggle('hidden');
+        }
+    </script>
+
+</body>
+</html>
